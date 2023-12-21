@@ -1,0 +1,157 @@
+@media only screen and (max-width: 805px) {
+    .menu {
+        display: none; 
+    }
+    .logo img{
+      width: 140px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+    
+    .img-cover header {
+      font-size: 2em;
+  }
+  .background-image-container {
+    height: 200px;
+  }
+
+  .img-cover header {
+    top: 35%;
+  }
+    
+
+    .info-container {
+        flex-direction: column; 
+        height: auto;
+      }
+      .tote-container{
+        width: 60%;
+      }
+    
+      .tote-container,
+      .tote-info {
+        width: 100%; 
+      }
+
+      .tote-info{
+        padding-left: 0;
+      }
+
+      /*TOTE IMAGE ANIAMTIONS*/
+      .tote-container:hover{
+        transform: none; 
+        box-shadow: none;
+      }
+      .tote-container:hover #coverImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #topBarsImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #containerImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #leftEdgeBackImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #leftEdgeFrontImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #rightEdgeBackImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #rightEdgeFrontImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #frontEdgeImg {
+        transform: translate(-50%, -50%);
+        z-index: 4;
+      }
+      .tote-container:hover #nozzleImg {
+        transform: translate(-50%, -50%);
+        z-index: 4;
+      }
+      .tote-container:hover #rightPanelImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #leftPanelImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #backBarsImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #frontBarsImg {
+        transform: translate(-50%, -50%);
+      }
+      .tote-container:hover #platformImg {
+        transform: translate(-50%, -50%);
+      }
+
+      /*for phone*/
+      .tote-container.click-animation{
+        transform: scale(1.1); 
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+      }
+      .tote-container.click-animation #coverImg {
+        transform: translate(-50%, -50%) translate(0px, -35%) scale(0.7);
+      }
+      .tote-container.click-animation #topBarsImg {
+        transform: translate(-50%, -50%) translate(0px, -27%) scale(0.7);
+      }
+      .tote-container.click-animation #containerImg {
+        transform: translate(-50%, -50%) translate(0px, -20%) scale(0.7);
+      }
+      .tote-container.click-animation #leftEdgeBackImg {
+        transform: translate(-50%, -50%) translate(-10%, -22%) scale(0.7);
+      }
+      .tote-container.click-animation #leftEdgeFrontImg {
+        transform: translate(-50%, -50%) translate(-10%, -22%) scale(0.7);
+      }
+      .tote-container.click-animation #rightEdgeBackImg {
+        transform: translate(-50%, -50%) translate(10%, -20%) scale(0.7);
+      }
+      .tote-container.click-animation #rightEdgeFrontImg {
+        transform: translate(-50%, -50%) translate(10%, -20%) scale(0.7);
+      }
+      .tote-container.click-animation #frontEdgeImg {
+        transform: translate(-50%, -50%) translate(0px, -15%) scale(0.7);
+        z-index: 5;
+      }
+      .tote-container.click-animation #nozzleImg {
+        transform: translate(-50%, -50%)  translate(-4%, -18%) scale(0.7);
+        z-index: 5;
+      }
+      .tote-container.click-animation #rightPanelImg {
+        transform: translate(-50%, -50%) translate(10%, 27%) scale(0.7);
+      }
+      .tote-container.click-animation #leftPanelImg {
+        transform: translate(-50%, -50%) translate(-10%, 27%) scale(0.7);
+      }
+      .tote-container.click-animation #backBarsImg {
+        transform: translate(-50%, -50%) translate(0px, 27%) scale(0.7);
+      }
+      .tote-container.click-animation #frontBarsImg {
+        transform: translate(-50%, -50%) translate(0px, 27%) scale(0.7);
+      }
+      .tote-container.click-animation #platformImg {
+        transform: translate(-50%, -50%) translate(0px, 35%) scale(0.7);
+      }
+
+      .team-info:hover{
+        box-shadow: none;
+        transform: none;
+      }
+      .team-info.click-animation{
+        box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+        transform: scale(1.1);
+      }
+
+}
+
+@media only screen and (min-width: 806px) {
+    .dropdown-container.show {
+        display: none;
+    }
+}

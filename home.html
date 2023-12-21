@@ -1,0 +1,159 @@
+<!--
+======================================================================
+File: home.html
+Author: Aksel Ray Freeman
+Date: December 7, 2023
+Description: Splash page for EcoFlex website
+Version: 1.0
+======================================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Header with favicon, title, stylesheet -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFlex Manufacturing</title>
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="styles/images/FavIcon/FavIcon16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="styles/images/FavIcon/FavIcon32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="styles/images/FavIcon/FavIcon64.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="styles/images/FavIcon/FavIcon128.png">
+</head>
+<body>
+
+  <!-- navbar with drop down menu and hamburger menu -->
+  <div class="navbar">
+    <div class="nav-container">
+      <div class="logo-container">
+        <a href="home.html">
+          <div class="logo">
+            <img src="styles/images/logo.png" alt="Logo">
+          </div>
+        </a>
+      </div>
+      <!-- menu list -->
+      <ul class="menu">
+        <li><a href="home.html" target="">Home</a></li>
+        <li><span class="separator"> &bull; </span></li>
+        <li><a href="#team-info">Meet The Team</a></li>
+        <li><span class="separator"> &bull; </span></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- dropdown menu -->
+      <div id="menu-icon" class="menu-icon">&#9776;</div>
+      <div class="dropdown-container hidden">
+        <ul class="drop-menu">
+          <a href="home.html" target=""><li>Home</li></a>
+          <a href="#team-info"><li>Meet The Team</a></li>
+          <a href="#contact" target=""><li>Contact</li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- background image for top of page plus the title, additional padding for style -->
+  <div class="background-image-container">
+    <div class="img-cover">
+      <header>EcoFlex Manufacturing</header>
+    </div>
+  </div>
+
+
+  <div class="tote-section">
+    <div class="info-container">
+      <div class="tote-container"  id="toteContainer">
+        <img id="coverImg" class= "toteImg" src="styles/images/ToteExpanded/Cover.png" alt="">
+        <img id="containerImg" class= "toteImg" src="styles/images/ToteExpanded/Container.png" alt="">
+        <img id="backBarsImg" class= "toteImg" src="styles/images/ToteExpanded/BackBars.png" alt="">
+        <img id="frontBarsImg" class= "toteImg" src="styles/images/ToteExpanded/FrontBars.png" alt="">
+        <img id="frontEdgeImg" class= "toteImg" src="styles/images/ToteExpanded/FrontEdge.png" alt="">
+        <img id="leftEdgeBackImg" class= "toteImg" src="styles/images/ToteExpanded/LeftEdgeBack.png" alt="">
+        <img id="leftEdgeFrontImg" class= "toteImg" src="styles/images/ToteExpanded/LeftEdgeFront.png" alt="">
+        <img id="leftPanelImg" class= "toteImg" src="styles/images/ToteExpanded/LeftPanel.png" alt="">
+        <img id="nozzleImg" class= "toteImg" src="styles/images/ToteExpanded/Nozzle.png" alt="">
+        <img id="platformImg" class= "toteImg" src="styles/images/ToteExpanded/Platform.png" alt="">
+        <img id="rightEdgeBackImg" class= "toteImg" src="styles/images/ToteExpanded/RightEdgeBack.png" alt="">
+        <img id="rightEdgeFrontImg" class= "toteImg" src="styles/images/ToteExpanded/RightEdgeFront.png" alt="">
+        <img id="rightPanelImg" class= "toteImg" src="styles/images/ToteExpanded/RightPanel.png" alt="">
+        <img id="topBarsImg" class= "toteImg" src="styles/images/ToteExpanded/TopBars.png" alt="">
+        <img id="placeholder"  src="styles/images/ToteExpanded/Placeholder.png" alt="">
+      </div>
+      <div class="tote-info">
+        <div class="tote-info">
+          <div class="header">
+            <div class="center-container">
+              <h1>EcoFlex IBC Totes</h1>
+            </div>
+            <p>Discover the benefits of High-Density Polyethylene (HDPE)</p>
+            <p>Efficient and Sustainable Liquid Storage Solutions</p>
+            <p>Industrial, Commercial, and Environmental Applications</p>
+            <div class="center-container">
+              <a href="#contact" class="contact-button">Contact to Purchase</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="team-section">
+    <div class="team-padding">
+      <div class="center-coo-info">
+        <h2 class="meet-the-team-heading">Meet The Team</h2>
+        <div id="team-info" class="team-info">
+          <img src="styles/images/CecilCalloway.jpg" alt="COO Image" class="coo-image">
+          <p>
+            <strong>Chief Operating Officer:</strong><br>
+            Cecil Calloway
+          </p>
+          <p>
+            <strong>Email:</strong><br>
+            CecilCalloway@5AProjectManagement.com  
+          </p>
+          <p>
+            <strong>Phone:</strong><br>
+            +1 (603) 866-9099
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="contact-section" class="contact-section">
+    <div class="contact-padding">
+      <div id="contact" class="contact">
+        <div class="contact-inside-padding">
+          <h2>Contact Us</h2>
+          <form action="#" method="post" id="contactForm">
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" required>
+    
+              <label for="body">Message:</label>
+              <textarea id="body" name="body" rows="4" required></textarea>
+    
+              <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+    
+              <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer information including contact, and company info like address and policies -->
+  <div class="footer">
+    <div class="footer-content">
+      <p>&copy; <span id="copyrightYear"></span> EcoFlex Manufacturing. All rights reserved.</p>
+    </div>
+  </div>
+
+  <!-- script link -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
